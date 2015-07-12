@@ -1,0 +1,43 @@
+@import 'modules/variables';
+@import 'modules/reset';
+
+@import 'modules/nav';
+@import 'modules/section';
+
+@import 'modules/lists';
+@import 'modules/footer';
+
+@import 'modules/post-list-card';
+@import 'modules/post-edit-form';
+@import 'modules/pagination';
+
+body{
+	min-height: 100vh;
+	background-color: #E4E9EA;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+p,li,input{line-height: 1.75;}
+h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif;}
+
+h1{
+font-size: 4em;
+margin-bottom: 0.5em;
+margin-top: 0.5em;
+}
+
+h2{
+font-size: 3em;
+margin-top: 0.33em;
+margin-bottom: 0.33em;
+}
+
+h3{
+font-size: 2em;
+margin-top: 0.25em;
+margin-bottom: 0.25em;
+}
+
+hr{
+	border-color: rgba(34,34,34,0.05);
+}

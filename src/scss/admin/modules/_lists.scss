@@ -1,0 +1,11 @@
+.list{
+	&--bullets{
+		list-style-type: circle;
+		padding-left: 24px;
+	}
+
+	&--blank{
+		list-style-type: none;
+		padding-left: 0;
+	}
+}

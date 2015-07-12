@@ -1,0 +1,9 @@
+/* MAIN */
+  Develop & Design: Sam Jacobs
+  Twitter: @thischarmingsam
+  Site: http://www.thischarmingsam.co.uk
+  From: Portsmouth, UK
+
+/* SITE */
+  Doctype: HTML5
+  IDE: Sublime Text 2

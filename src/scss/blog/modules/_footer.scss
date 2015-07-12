@@ -1,0 +1,13 @@
+.footer{
+	text-align: center;
+	font-size: 0.7em;
+	color: rgb(210, 210, 210);
+
+	a{
+		color: inherit;
+
+		&:hover, &:visited, &:active{
+			color: inherit;
+		}
+	}
+}

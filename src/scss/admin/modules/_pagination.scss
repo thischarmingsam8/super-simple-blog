@@ -1,0 +1,51 @@
+.pagination{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.pagination__summary{
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+
+.pagination__link + .pagination__summary{
+	padding-left: 1em;
+}
+
+.pagination__link{
+	display:inline-block;
+	color: #858E90;
+	text-decoration: none;
+
+	border: 1px solid #858E90;
+	padding: 0.75em 1.25em;
+	border-radius: 6px;
+
+	margin-top: 1em;
+
+	transition: all 0.5s ease;
+
+
+	&:visited, &:active{
+		color: #858E90;
+	}
+
+	&:hover{
+		color: #AFBBBD;
+		border: 1px solid #AFBBBD;
+		transition: all 0.5s ease;
+	}
+
+	i{
+		vertical-align: middle;
+		
+		&.fa-long-arrow-right{
+			margin-left: 0.4em;
+		}
+
+		&.fa-long-arrow-left{
+			margin-right: 0.4em;
+		}
+	}
+}
